@@ -27,8 +27,8 @@ public class Jeep extends SUV  {
 	}
 	
 	//public void offRoading()
-	{
-		System.out.println("This particilar jeep can go offrading but is limited to eaier places.");
-	}
+	//{
+		//System.out.println("This particilar jeep can go offrading but is limited to eaier places.");
+	//}
 
 }

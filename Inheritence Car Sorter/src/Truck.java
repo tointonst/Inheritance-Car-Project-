@@ -23,8 +23,8 @@ public class Truck extends SUV
 	}
 	
 	//public void bedDemensions()
-	{
-		System.out.println("The bed deminsions on this truck are 6 feet by 4 feet.");
-	}
+	//{
+	//	System.out.println("The bed deminsions on this truck are 6 feet by 4 feet.");
+	//}
 
 	}
