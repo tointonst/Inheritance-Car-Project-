@@ -2,6 +2,11 @@
 public class SportsCar extends Sedan
 	{
    double zeroToSixty = 4.5;
+   
+   public SportsCar()
+		{
+		myTurboCharged = (TurboCharged) new isTurboCharged();
+		}
 	
 	public void interiorDesign()
 	{
@@ -12,7 +17,6 @@ public class SportsCar extends Sedan
 	{
 		System.out.println("Sports Car");
 		System.out.println("This sports car is very fast and can go from 0 to 60 in " + zeroToSixty);
-		
 	}
 	
 	public void descriptionOfBody()

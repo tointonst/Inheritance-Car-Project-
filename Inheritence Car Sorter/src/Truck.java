@@ -2,6 +2,11 @@
 public class Truck extends SUV
 	{
 	String engine = "ford 302 5.0 V8";
+	
+	public Truck()
+		{
+		myTurboCharged = (TurboCharged) new notTurboCharged();
+		}
 	public void interiorDesign()
 	{
 		System.out.println("This truck has a cloth interoir and plastic mats made for it to get dirty.");

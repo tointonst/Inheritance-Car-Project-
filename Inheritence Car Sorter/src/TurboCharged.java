@@ -1,6 +1,6 @@
+public interface TurboCharged
+	{
 
-public interface TurboCharged {
-	
 	public void turboCharged();
 
-}
+	}
