@@ -1,5 +1,5 @@
 
-public class Sedan
+public abstract class Sedan extends Car
 	{
-
+	
 	}
