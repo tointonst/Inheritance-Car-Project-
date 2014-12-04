@@ -1,11 +1,13 @@
 
 public class Truck extends SUV
 	{
-	String engine = "ford 302 5.0 V8";
+	
 	
 	public Truck()
 		{
 		myTurboCharged = (TurboCharged) new notTurboCharged();
+		String engine = "ford 302 5.0 V8";
+		name = "Truck";
 		}
 	public void interiorDesign()
 	{
@@ -15,7 +17,7 @@ public class Truck extends SUV
 	
 	public void specs()
 	{
-		System.out.println("Truck");
+		System.out.println(name);
 		System.out.println("This Truck has a " + engine + "engine.");
 		System.out.println("It also is 4 wheel drive.");
 		

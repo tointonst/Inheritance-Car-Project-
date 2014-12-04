@@ -1,11 +1,13 @@
 
 public class Jeep extends SUV  {
 	
-	String engine = "V-8";
+	
 	
 	public Jeep()
 		{
 		myTurboCharged = (TurboCharged) new isTurboCharged();
+		String engine = "V-8";
+		name = "Jeep";
 		}
 	public void interiorDesign()
 	{
@@ -15,7 +17,7 @@ public class Jeep extends SUV  {
 	
 	public void specs()
 	{
-		System.out.println("Jeep");
+		System.out.println(name);
 		System.out.println("This Jeep has a " + engine + "engine.");
 		System.out.println("It also is 4 wheel drive.");
 		

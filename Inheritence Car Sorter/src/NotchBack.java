@@ -1,10 +1,12 @@
 public class NotchBack extends Sedan
 	{
-	double zeroToSixty = 15;
+	
 
 	public NotchBack()
 		{
 		myTurboCharged = (TurboCharged) new notTurboCharged();
+		double zeroToSixty = 15;
+		name = "Subaru legacy notchback";
 		}
 
 	public void interiorDesign()
@@ -15,10 +17,10 @@ public class NotchBack extends Sedan
 
 	public void specs()
 		{
-		System.out.println("Subaru legacy notchback");
+		System.out.println(name);
 		System.out
 				.println("This is a normal sedan and its nessisarly fast and goes from 0 to 60 in  "
-						+ zeroToSixty);
+						+ zeroToSixty + " seconds.");
 
 		}
 

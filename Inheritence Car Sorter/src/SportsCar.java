@@ -1,29 +1,32 @@
-
 public class SportsCar extends Sedan
 	{
-   double zeroToSixty = 4.5;
-   
-   public SportsCar()
+
+	public SportsCar()
 		{
 		myTurboCharged = (TurboCharged) new isTurboCharged();
+		double zeroToSixty = 4.5;
+		name = "Sports Car";
 		}
-	
+
 	public void interiorDesign()
-	{
-		System.out.println("This is a very luxurious intior with lots of extras costing a lot.");
-	}
-	
+		{
+		System.out
+				.println("This is a very luxurious intior with lots of extras costing a lot.");
+		}
+
 	public void specs()
-	{
-		System.out.println("Sports Car");
-		System.out.println("This sports car is very fast and can go from 0 to 60 in " + zeroToSixty);
-	}
-	
+		{
+		System.out.println(name);
+		System.out
+				.println("This sports car is very fast and can go from 0 to 60 in "
+						+ zeroToSixty + " seconds.");
+		}
+
 	public void descriptionOfBody()
-	{
-		System.out.println("This Body style is sleek and fast just for a sportscar.");
-		
-	}
-	
+		{
+		System.out
+				.println("This Body style is sleek and fast just for a sportscar.");
+
+		}
 
 	}
